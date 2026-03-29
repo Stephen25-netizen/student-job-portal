@@ -1,27 +1,13 @@
-# Job Portal Deployment TODO
+# Job Portal Enhancement Plan
 
-## Current Progress
-- [x] Analyzed files and created plan
-- [x] Got user approval
+**Approved: Dynamic jobs + enhancements + safe EmailJS**
 
-## COMPLETED ✅
+1. [x] Create dynamic jobs array (15+ jobs) + render in script.js - DONE
+2. [ ] Add auth modal + localStorage login/signup
+3. [ ] Add EmailJS send on apply (placeholders + fallback alert)
+4. [ ] UI enhancements (loading spinner, animations)
+5. [ ] Test: login → jobs → search → apply
+6. [ ] Git commit/push
+7. [ ] Complete
 
-All frontend fixes done:
-- [x] HTML fixed/validated
-- [x] CSS fixed/responsive
-- [x] JS search functional
-- [x] Git repo initialized + committed
-
-## Manual GitHub Deployment (since no gh CLI):
-1. Go to https://github.com/new → Create public repo named **job-portal** (no init).
-2. Run:
-   
-```
-   git remote add origin https://github.com/YOUR_USERNAME/job-portal.git
-   git branch -M main
-   git push -u origin main
-   
-```
-3. GitHub repo → Settings → Pages → Source: "Deploy from a branch" → main → / (root) → Save.
-4. Live URL: https://YOUR_USERNAME.github.io/job-portal (ready in ~5min)
-
+Progress updated after each.
