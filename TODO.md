@@ -4,15 +4,24 @@
 - [x] Analyzed files and created plan
 - [x] Got user approval
 
-## Steps to Complete
-- [ ] 1. Fix index.html (HTML validation, add script tag)
-- [ ] 2. Fix style.css (add class selectors, fix CSS errors)
-- [x] 3. Create script.js (vanilla JS search functionality)
-- [x] 4. Create .gitignore
-- [x] 5. Create README.md
-- [x] 6. Initialize git repo
-- [ ] 7. Create GitHub repo and push
-- [ ] 8. Deploy to GitHub Pages
-- [ ] 9. Test and provide live URL
+## COMPLETED ✅
 
-Updated after each step.
+All frontend fixes done:
+- [x] HTML fixed/validated
+- [x] CSS fixed/responsive
+- [x] JS search functional
+- [x] Git repo initialized + committed
+
+## Manual GitHub Deployment (since no gh CLI):
+1. Go to https://github.com/new → Create public repo named **job-portal** (no init).
+2. Run:
+   
+```
+   git remote add origin https://github.com/YOUR_USERNAME/job-portal.git
+   git branch -M main
+   git push -u origin main
+   
+```
+3. GitHub repo → Settings → Pages → Source: "Deploy from a branch" → main → / (root) → Save.
+4. Live URL: https://YOUR_USERNAME.github.io/job-portal (ready in ~5min)
+
